@@ -148,9 +148,9 @@ To improve usability and maintenance of the system, the PSU enclosure also inclu
 
 # Status
 
-✔ Fully functional
-✔ Currently powering the first modules of the synth system
-🔧 Designed with enough headroom to support a **second rack in the future**
+✔ Fully functional  
+✔ Currently powering the first modules of the synth system  
+🔧 Designed with enough headroom to support a **second rack in the future**  
 
 ---
 
