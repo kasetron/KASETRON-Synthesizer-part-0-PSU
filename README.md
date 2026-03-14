@@ -56,7 +56,7 @@ The design prioritizes:
   - LM337 for -12V, -15V rails
 
 
-The **17-0-17 V center-tapped winding** is used to generate the ±12V rails.
+The **17-0-17 V center-tapped winding** is used to generate the rails.
 
 Thanks to the relatively high power rating, the PSU is designed to **power the current rack and a future second rack mounted above it.**
 
@@ -82,7 +82,8 @@ Typical module current consumption is assumed to be approximately: ~100 mA per m
 
 # Repository Structure
 
-```photos/
+```
+photos/
     Build photos and assembly documentation
 
 schematics/
