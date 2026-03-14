@@ -112,7 +112,7 @@ The linear regulators dissipate a significant amount of heat and require **adequ
 
 Important considerations:
 
-* Use **large heatsinks** for both regulators.
+* Use **large heatsinks** for every regulator.
 * Ensure that the heatsinks **never touch each other**, since the regulators reference different rails and electrical contact could cause a short.
 * Maintain sufficient airflow around the regulators.
 
