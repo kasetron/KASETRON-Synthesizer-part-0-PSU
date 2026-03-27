@@ -25,7 +25,7 @@ This repository documents **my implementation of the PSU**, including the specif
 
 The PSU follows a classic linear power supply architecture:
 
-→ Transformer
+Transformer
 → Bridge Rectifier
 → Smoothing Capacitors
 → Linear Regulators
