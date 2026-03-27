@@ -31,6 +31,8 @@ The PSU follows a classic linear power supply architecture:
 → Linear Regulators
 → Power Distribution Bus
 
+![Inside of the hollow Synth case seen from the glass window. All modules removed: PSU, power bus and fan visible.](photos/psu_5.jpg)
+
 ---
 
 # Hardware
