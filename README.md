@@ -64,7 +64,7 @@ The output voltage of the winding goes then to the bridge rectifier, which feeds
 
 Power is distributed to the modules using several **stripboard bus boards**, each connected to the main stripboards with thick multistranded copper wires of different colours, following a tree structure. Each bus board powers a small group of modules.
 
-Typical module current consumption is assumed to be approximately: ~100 mA per module (maximum).
+Typical module current consumption is assumed to be maximum: ~100 mA per module.
 
 ---
 
