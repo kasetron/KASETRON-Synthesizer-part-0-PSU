@@ -52,19 +52,17 @@ Transformer
   - LM337 for -12V, -15V rails
 
 
-The **17-0-17 V center-tapped winding** is used to generate the rails.
+The **17-0-17 V center-tapped winding** is used as a starting point to generate the rails.
 
-Thanks to the relatively high power rating, the PSU is designed to **power the current rack and a future second rack mounted above it.**
+NOTE: Thanks to the relatively high power rating, the PSU is designed to **power the current rack and a future second rack mounted above it.**
 
-The bridge rectifier feeds large smoothing capacitors before the regulation stage.
-
-Output voltages are set using trim potentiometers.
+The output voltage of the winding goes then to the bridge rectifier, which feeds two large smoothing capacitors, one for the positive rail and one for the negative rail. Each voltage line is then interrupted by a fuse (2.5 A, slow-blow type) that helps the PSU (in particular the subsequent regulator stages) limit the maximum current provided. This is necessary since the linear regulators have a rated output current of 1.5 A each. After the fuses, the two voltage lines and the ground line are split to feed two identical regulator boards, where the output voltages are set using trim potentiometers.
 
 ---
 
 # Power Distribution
 
-Power is distributed to the modules using several **stripboard bus boards**, each connected to the main stripboards with thick multistranded copper wires of different colours. Each bus board powers a small group of modules.
+Power is distributed to the modules using several **stripboard bus boards**, each connected to the main stripboards with thick multistranded copper wires of different colours, following a tree structure. Each bus board powers a small group of modules.
 
 Typical module current consumption is assumed to be approximately: ~100 mA per module (maximum).
 
@@ -93,11 +91,12 @@ Important considerations:
 * Use **large heatsinks** for every regulator.
 * Ensure that the heatsinks **never touch each other**, since the regulators reference different rails and electrical contact could cause a short.
 * Maintain sufficient airflow around the regulators.
+* Remember to tin all the copper strips that carry current (under the boards).
 
-To improve thermal performance, the PSU includes:
+To improve thermal performance, the PSU includes a **cooling fan placed in front of the regulators**, which pushes warm air out of the case.
 
-* a **cooling fan placed in front of the regulators**, which pushes warm air out of the case
-* adequate spacing around the heatsinks to allow air circulation
+![](photos/psu_6.jpg)
+*Regulator boards: the front one for ±15V, the rear one for ±12V.*
 
 ---
 
